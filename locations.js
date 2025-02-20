@@ -9,8 +9,12 @@ export const locations = [
     {coords:[-12.599496,-40.700189], name:"LIVANDETE BARROS DA SILVA", whatsapp:"557581301465", color:'grey', local:"ASSENTAMENTO POLINESIA"},
     {coords:[-12.658835,-40.607746], name:"ANA LUISA SANTOS NASCIMENTO", whatsapp:"557581728393", color:'grey', local:"PRAÇA RUY BARBOSA"},
     {coords:[-12.962843,-40.719296], name:"FERNANDA LIMA DE JESUS", whatsapp:"557588989903", color:'grey', local:"TERRA BOA"},
-    {coords:[-12.662184, -40.603792], name:"SANDRA SILVA DE SOUZA SAMPAIO", whatsapp:"557588319205", color:'grey', local:"NOVA BRASILIA"},
-    {coords:[-12.452195, -40.631293], name:"JULIANA QUINTINO COSTA", whatsapp:"557581508805", color:'grey', local:"AMPARO ZUCA"},
-    {coords:[-12.851935, -40.521389], name:"MARIA IONETE MARQUES DOS SANTOS DE JE", whatsapp:"75983154777U", color:'grey', local:"RURAL AMPARO"},
+    {coords:[-12.662184,-40.603792], name:"SANDRA SILVA DE SOUZA SAMPAIO", whatsapp:"557588319205", color:'grey', local:"NOVA BRASILIA"},
+    {coords:[-12.452195,-40.631293], name:"JULIANA QUINTINO COSTA", whatsapp:"557581508805", color:'grey', local:"AMPARO ZUCA"},
+    {coords:[-12.851935,-40.521389], name:"MARIA IONETE MARQUES DOS SANTOS DE JE", whatsapp:"557588175591", color:'grey', local:"RURAL AMPARO"},
+    {coords:[-12.929227,-40.720408], name:"GILCILENE SILVA SANTOS", whatsapp:"557592104941", color:'grey', local:"POVOADO NOSSA SENHORA AUXILIADORA"},
+    {coords:[-12.992028,-40.640416], name:"IlDALlA LIMA DE OLIVEIRA SANTOS", whatsapp:"557591586989", color:'grey', local:"PO VALE DO PARAGUASSU"},
+    {coords:[-12.660411,-40.609276], name:"DELIANA ALMEIDA DE SOUSA COSTA", whatsapp:"557588223860", color:'grey', local:"RUA MARCELINO RIBEIRO"},
+    {coords:[-12.850671,-40.690493], name:"JOSE ALVES DE ANDRADE", whatsapp:"557581238782", color:'grey', local:"ASSENTAMENTO ALIANÇA"},
 
 ];

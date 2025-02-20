@@ -1,0 +1,44 @@
+/* Estilo básico para o mapa */
+body{
+    margin: 0;
+}
+
+#map {
+    width: 100%;
+
+}
+
+/* Estilo para os pop-ups dos marcadores */
+.leaflet-popup-content {
+    font-family: Arial, sans-serif;
+}
+
+.leaflet-popup-content p {
+    margin: 5px 0;
+}
+
+.whatsapp-link img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+/* Estilo para o marcador da localização do usuário */
+.user-location-marker {
+    background-color: #007bff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+p{
+    text-align: center;
+}
+.lc{
+    text-align: justify;
+}
+
+.name{
+    font-size: larger;
+}
+

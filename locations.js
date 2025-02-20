@@ -16,5 +16,6 @@ export const locations = [
     {coords:[-12.992028,-40.640416], name:"IlDALlA LIMA DE OLIVEIRA SANTOS", whatsapp:"557591586989", color:'grey', local:"PO VALE DO PARAGUASSU"},
     {coords:[-12.660411,-40.609276], name:"DELIANA ALMEIDA DE SOUSA COSTA", whatsapp:"557588223860", color:'grey', local:"RUA MARCELINO RIBEIRO"},
     {coords:[-12.850671,-40.690493], name:"JOSE ALVES DE ANDRADE", whatsapp:"557581238782", color:'grey', local:"ASSENTAMENTO ALIANÇA"},
+    {coords:[-12.665815,-40.597386], name:"JOICE SANTANA LIMA", whatsapp:"+55 75 8158-0767", color:'grey', local:"PRAÇA CAMPO ALEGRE"},
 
 ];

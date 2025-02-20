@@ -18,5 +18,9 @@ export const locations = [
     {coords:[-12.850671,-40.690493], name:"JOSE ALVES DE ANDRADE", whatsapp:"557581238782", color:'grey', local:"ASSENTAMENTO ALIANÇA"},
     {coords:[-12.665815,-40.597386], name:"JOICE SANTANA LIMA", whatsapp:"557581580767", color:'grey', local:"PRAÇA CAMPO ALEGRE"},
     {coords:[-12.750034,-40.813584], name:"JOSINO SOUZA DOS SANTOS", whatsapp:"557591398053", color:'grey', local:"PROXIMO À IGREJA CATOLICA"},
+    {coords:[-12.599498,-40.700188], name:"ARTEMIA BARROS DA SILVA", whatsapp:"557588680662", color:'grey', local:"FAZENDA PIABAS"},
+    {coords:[-12.659734,-40.603641], name:"GENI BARBOSA DE MENEZES DE SENA", whatsapp:"557583512848", color:'grey', local:"RUA PROFESSORA NILDA DE CASTRO"},
+    {coords:[-12.822660,-40.677559], name:"ANTONIO DO AMOR DIVINO SILVA", whatsapp:"557598515617", color:'grey', local:"ASSENTAMENTO ALIANÇA"},
+    {coords:[-12.964902,-40.719051], name:"EDLENE JESUS ARAGAO", whatsapp:"557591467024", color:'grey', local:"POVOADO TERRA BOA"},
 
 ];

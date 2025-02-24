@@ -39,7 +39,7 @@ export const locations = [
     {coords:[-11.671582, -40.394547], name:"Lucivanda Moreira Santos", whatsapp:"5574999310705", color:'red', local:"Bairro: Zona Rural - Endereço: Fazenda Minador, sn - Ref.:Associação do Minador / Próximo o povoado do capim Branco / Telefone 2: 74 99.925291, Nome: Biato ferreira dos santos"},
     {coords:[-11.954182, -40.347135], name:"Natalicia Santos Do Rosario", whatsapp:"5574999888395", color:'red', local:"Bairro: Zona Rural - Endereço: Fazenda Pé do Morro, S/N - Ref.:Vizinho a casa de Nondas / Fica no KM 159 / Fica próximo ao povoado de Cangerana / A entrada fica em uma curva / Avistar a fazenda do vando, só seguir a estrada de terra direto / Contato 2: 74999616586 - Sogra - Railda"},
     {coords:[-11.957351, -40.637370], name:"Ivanir Mendes Dos Santos", whatsapp:"5574999817724", color:'red', local:"Bairro: Mirandas - Endereço: Povoado dos mirandas, sn - Ref.:Próximo ao bar de Antôi coelho / Próximo ao bar de jailde / 74981233482 Maria Ivoneide (SOBRINHA)"},
-    {coords:[-11.722173, -40.409125], name:"Marilde Oliveira Sena", whatsapp:"5574999897851", color:'red', local:"Bairro: Alto bonito - Endereço: Rua da quadra, 08 - Ref.:Localizada próximo a quadra/Vizinha do bar de Micael  /Proximo a lanchonete de lela .  /De fente da creche Jairo Moreira de Almeida/ 7598592704 - Jaine - Filha"},
+    {coords:[-11.722071, -40.407031], name:"Marilde Oliveira Sena", whatsapp:"5574999897851", color:'grey', local:"Bairro: Alto bonito - Endereço: Rua da quadra, 08 - Ref.:Localizada próximo a quadra/Vizinha do bar de Micael  /Proximo a lanchonete de lela .  /De fente da creche Jairo Moreira de Almeida/ 7598592704 - Jaine - Filha"},
 
 
 ];

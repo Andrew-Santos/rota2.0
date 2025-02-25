@@ -4,7 +4,10 @@
 export const locations = [
 
     {coords:[-11.956616, -40.637293], name:"Ivanir Mendes Dos Santos", whatsapp:"5574999817724", color:'grey', local:"Bairro: Mirandas - Endereço: Povoado dos mirandas, sn - Ref.:Próximo ao bar de Antôi coelho / Próximo ao bar de jailde / 74981233482 Maria Ivoneide (SOBRINHA)"},
-    {coords:[-11.924800, -39.959347], name:"Juliana Santos De Jesus", whatsapp:"5574999260340", color:'red', local:"Bairro: Zona rural - Endereço: Povoado santo Antônio , sn - Ref.:Próximo a represa ao lado esquerdo /  próximo a casa de nega / 74999845243 Anderson "},
+    {coords:[-11.853791, -40.470809], name:"Franciely De Jesus Xavier", whatsapp:"5574998078311", color:'grey', local:"Bairro: CENTRO - Endereço: RUA CORONEL TAMARINDO, 62 - Ref.:Próxima a Oficina de Têro"},
+    {coords:[-11.922376784507113,-39.9628385436162], name:"Girlene De Jesus Santos", whatsapp:"5571999255661", color:'red', local:"Bairro: Pintadas - Endereço: Povoado Santo Antônio, 58 - Ref.:Aos fundos do Posto de Saúde Unidade Santo Antônio, em frente a Escola Doroteia Euflozina da Silva e ao lado da loja Dona Diva (75998613479-Renaelle)"},
+    {coords:[-11.921730, -39.962942], name:"Luana De Jesus Ribeiro", whatsapp:"5575999187975", color:'red', local:"Bairro: Povoado  - Endereço: Povoado Santo Antônio, 39 - Ref.:Minha casa fica na rua do fundo / Próximo a casa de Gersivania"},
+    {coords:[-11.924800, -39.959415], name:"Juliana Santos De Jesus", whatsapp:"5574999260340", color:'red', local:"Bairro: Zona rural - Endereço: Povoado santo Antônio , sn - Ref.:Próximo a represa ao lado esquerdo /  próximo a casa de nega / 74999845243 Anderson "},
     {coords:[-11.721080, -40.406391], name:"Celeste Barbosa Macena", whatsapp:"5574999324433", color:'grey', local:"Bairro: Povoado : Alto Bonito - Endereço: Rua do campo, 58 - Ref.:Acima do posto de saúde / Acima da creche - falar com Camilly: 74999008108"},
     {coords:[-11.722522, -40.408423], name:"Erenaldo Da Silva Rodrigues", whatsapp:"5574999518990", color:'grey', local:"Bairro: Alto Bonito - Endereço: Rua José Pereira Lima, sn - Ref.:Na rua do Mercado oliveira/Em frente a Escola Soares de Almeida  /74996315735 carlos"},
     {coords:[-11.959186, -40.637487], name:"Cintia Lima Santos", whatsapp:"5574999413303", color:'grey', local:"Bairro: Zona rural Mirandas - Endereço: Povoado dos Mirandas  Antes era em mundo novo na sede msm mais me mudei pró povoado dos mirandas, sn - Ref.:Vizinho a casa de Juciano em frente a quadra de esporte e a igreja cristã evangélica. / Tel 2: 74999048431"},
@@ -25,7 +28,5 @@ export const locations = [
     {coords:[-11.8665636,-40.4704076], name:"Reniclei De Sousa Lima", whatsapp:"5574999295386", color:'grey', local:"Bairro: Centro - Endereço: Rua Coronel Francisco Lima , 190 - Ref.:Próximo ao mercadinho do Givaldo, três casas abaixo / Rua da igreja Paróquia Nossa Senhora da Conceição"},
     {coords:[-11.672901, -40.368282], name:"Veronica Mendes Goncalves Almeida", whatsapp:"5574998161878", color:'red', local:"Bairro: Zona Rural - Endereço:  Povoado Umbuzeiro , sn - Ref.:Próximo ao campo do aliança/ perto da casa de Diba/74 999381124(Minha mãe, sileide mendes)"},
     {coords:[-11.671582, -40.394547], name:"Lucivanda Moreira Santos", whatsapp:"5574999310705", color:'red', local:"Bairro: Zona Rural - Endereço: Fazenda Minador, sn - Ref.:Associação do Minador / Próximo o povoado do capim Branco / Telefone 2: 74 99.925291, Nome: Biato ferreira dos santos"},
-    {coords:[-11.922376784507113,-39.9628385436162], name:"Girlene De Jesus Santos", whatsapp:"5571999255661", color:'red', local:"Bairro: Pintadas - Endereço: Povoado Santo Antônio, 58 - Ref.:Aos fundos do Posto de Saúde Unidade Santo Antônio, em frente a Escola Doroteia Euflozina da Silva e ao lado da loja Dona Diva (75998613479-Renaelle)"},
-
 
 ];

@@ -25,6 +25,7 @@ export const locations = [
     {coords:[-11.8665636,-40.4704076], name:"Reniclei De Sousa Lima", whatsapp:"5574999295386", color:'grey', local:"Bairro: Centro - Endereço: Rua Coronel Francisco Lima , 190 - Ref.:Próximo ao mercadinho do Givaldo, três casas abaixo / Rua da igreja Paróquia Nossa Senhora da Conceição"},
     {coords:[-11.672901, -40.368282], name:"Veronica Mendes Goncalves Almeida", whatsapp:"5574998161878", color:'red', local:"Bairro: Zona Rural - Endereço:  Povoado Umbuzeiro , sn - Ref.:Próximo ao campo do aliança/ perto da casa de Diba/74 999381124(Minha mãe, sileide mendes)"},
     {coords:[-11.671582, -40.394547], name:"Lucivanda Moreira Santos", whatsapp:"5574999310705", color:'red', local:"Bairro: Zona Rural - Endereço: Fazenda Minador, sn - Ref.:Associação do Minador / Próximo o povoado do capim Branco / Telefone 2: 74 99.925291, Nome: Biato ferreira dos santos"},
+    {coords:[-11.922376784507113,-39.9628385436162], name:"Girlene De Jesus Santos", whatsapp:"5571999255661", color:'red', local:"Bairro: Pintadas - Endereço: Povoado Santo Antônio, 58 - Ref.:Aos fundos do Posto de Saúde Unidade Santo Antônio, em frente a Escola Doroteia Euflozina da Silva e ao lado da loja Dona Diva (75998613479-Renaelle)"},
 
 
 ];

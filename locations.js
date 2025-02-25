@@ -5,8 +5,7 @@ export const locations = [
 
     {coords:[-11.956616, -40.637293], name:"Ivanir Mendes Dos Santos", whatsapp:"5574999817724", color:'grey', local:"Bairro: Mirandas - Endereço: Povoado dos mirandas, sn - Ref.:Próximo ao bar de Antôi coelho / Próximo ao bar de jailde / 74981233482 Maria Ivoneide (SOBRINHA)"},
     {coords:[-11.853791, -40.470809], name:"Franciely De Jesus Xavier", whatsapp:"5574998078311", color:'grey', local:"Bairro: CENTRO - Endereço: RUA CORONEL TAMARINDO, 62 - Ref.:Próxima a Oficina de Têro"},
-    
-    
+    {coords:[-11.922373, -39.962483], name:"Maiane Rocha Silva", whatsapp:"5575998733236", color:'black', local:"Bairro: RURAL PINTADAS  - Endereço: POVOADO SANTO ANTONIO , S/N - Ref.:AO LADO DO MERCADINHO RIOS // EM FRENTE A PRAÇA // AO LADO DA CASA DE VANDERLEIA //  (75) 99952-6314- FABIO(VIZINHO)"},  
     {coords:[-11.922376784507113,-39.9628385436162], name:"Girlene De Jesus Santos", whatsapp:"5571999255661", color:'red', local:"Bairro: Pintadas - Endereço: Povoado Santo Antônio, 58 - Ref.:Aos fundos do Posto de Saúde Unidade Santo Antônio, em frente a Escola Doroteia Euflozina da Silva e ao lado da loja Dona Diva (75998613479-Renaelle)"},
     {coords:[-11.921730, -39.962942], name:"Luana De Jesus Ribeiro", whatsapp:"5575999187975", color:'red', local:"Bairro: Povoado  - Endereço: Povoado Santo Antônio, 39 - Ref.:Minha casa fica na rua do fundo / Próximo a casa de Gersivania"},
     {coords:[-11.924800, -39.959415], name:"Juliana Santos De Jesus", whatsapp:"5574999260340", color:'red', local:"Bairro: Zona rural - Endereço: Povoado santo Antônio , sn - Ref.:Próximo a represa ao lado esquerdo /  próximo a casa de nega / 74999845243 Anderson "},

@@ -95,6 +95,32 @@ function adjustMapView(userCoords) {
     map.fitBounds(markersGroup.getBounds());
 }
 
+// Variável para armazenar o marcador do usuário
+let userMarker = null;
+
+// Função para atualizar a localização do usuário
+function updateUserLocation(position) {
+    const userCoords = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude
+    };
+
+    // Se o marcador do usuário já existe, atualiza sua posição
+    if (userMarker) {
+        userMarker.setLatLng([userCoords.latitude, userCoords.longitude]);
+    } else {
+        // Caso contrário, cria um novo marcador
+        const userIcon = L.divIcon({ className: 'user-location-marker', iconSize: [20, 20] });
+        userMarker = L.marker([userCoords.latitude, userCoords.longitude], { icon: userIcon })
+            .addTo(map)
+            .bindPopup("Você está aqui!")
+            .openPopup();
+    }
+
+    // Ajusta a visualização do mapa
+    adjustMapView(userCoords);
+}
+
 // Função para obter a localização do usuário em tempo real
 function watchUserLocation() {
     if (navigator.geolocation) {

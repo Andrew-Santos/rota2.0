@@ -95,30 +95,22 @@ function adjustMapView(userCoords) {
     map.fitBounds(markersGroup.getBounds());
 }
 
-// Função para obter a localização do usuário
-function getUserLocation() {
+// Função para obter a localização do usuário em tempo real
+function watchUserLocation() {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
+        navigator.geolocation.watchPosition(
             (position) => {
-                const userCoords = {
-                    latitude: position.coords.latitude,
-                    longitude: position.coords.longitude
-                };
-
-                // Adiciona um marcador para a localização do usuário
-                const userIcon = L.divIcon({ className: 'user-location-marker', iconSize: [20, 20] });
-                L.marker([userCoords.latitude, userCoords.longitude], { icon: userIcon })
-                    .addTo(map)
-                    .bindPopup("Você está aqui!")
-                    .openPopup();
-
-                // Ajusta a visualização do mapa
-                adjustMapView(userCoords);
+                updateUserLocation(position);
             },
             (error) => {
                 console.error("Erro ao obter localização:", error);
                 // Se não conseguir a localização, ajusta a visualização apenas para os marcadores
                 adjustMapView();
+            },
+            {
+                enableHighAccuracy: true, // Tenta obter a localização com maior precisão
+                timeout: 5000, // Tempo máximo de espera para obter a localização
+                maximumAge: 0 // Não usa cache de localização
             }
         );
     } else {
@@ -131,5 +123,5 @@ function getUserLocation() {
 // Adiciona os marcadores ao mapa
 addMarkers();
 
-// Obtém a localização do usuário e ajusta a visualização do mapa
-getUserLocation();
+// Inicia o monitoramento da localização do usuário em tempo real
+watchUserLocation();

@@ -1,10 +1,16 @@
 // main.js
 
 // Importa o array de locations do arquivo locations.js
-import { locations } from './locations.js'; // Caminho relativo para o arquivo locations.js
+import { locations } from './locations.js';
 
 // Inicializa o mapa
 const map = L.map('map');
+
+// Variável para armazenar o marcador do usuário
+let userMarker = null;
+
+// Variável para armazenar se o usuário já interagiu com o mapa
+let userInteractedWithMap = false;
 
 // Camada de mapa padrão (OpenStreetMap)
 const openStreetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -65,8 +71,6 @@ function addMarkers() {
                 <p><a href="https://maps.apple.com/?q=${coords}" target="_blank">Apple maps</a></p>
                 
                 <p><a href="https://waze.com/ul?ll=${coords}" target="_blank">Waze maps</a></p>
-
-                
             </div>
         `;
 
@@ -91,12 +95,11 @@ function adjustMapView(userCoords) {
         markersGroup.addLayer(userMarker);
     }
 
-    // Ajusta a visualização do mapa para incluir todos os marcadores e a localização do usuário
-    map.fitBounds(markersGroup.getBounds());
+    // Ajusta a visualização do mapa apenas se o usuário não interagiu com o mapa
+    if (!userInteractedWithMap) {
+        map.fitBounds(markersGroup.getBounds());
+    }
 }
-
-// Variável para armazenar o marcador do usuário
-let userMarker = null;
 
 // Função para atualizar a localização do usuário
 function updateUserLocation(position) {
@@ -117,7 +120,7 @@ function updateUserLocation(position) {
             .openPopup();
     }
 
-    // Ajusta a visualização do mapa
+    // Ajusta a visualização do mapa apenas se o usuário não interagiu com o mapa
     adjustMapView(userCoords);
 }
 
@@ -151,3 +154,12 @@ addMarkers();
 
 // Inicia o monitoramento da localização do usuário em tempo real
 watchUserLocation();
+
+// Detecta interações do usuário com o mapa
+map.on('zoomstart', () => {
+    userInteractedWithMap = true;
+});
+
+map.on('dragstart', () => {
+    userInteractedWithMap = true;
+});

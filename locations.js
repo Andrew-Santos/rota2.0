@@ -2,6 +2,11 @@
 
 
 export const locations = [
+    {coords:[-11.303034,-39.731358], name:"Valdirene Ferreira De Jesus", whatsapp:"5575999379185", color:'grey', local:"Bairro: Povoado Sisalândia - Endereço: Rua Bahia, SN - Ref.:Frente a academia e próximo a praça nova. Tel 2: 75983701478  (Edileuza)"},
+    {coords:[-11.278461,-39.825627], name:"Luiz Dos Santos Jesus", whatsapp:"5575998541171", color:'grey', local:"Bairro: Zona rural - Endereço: Lucenildo, sn - Ref.:Próximo a igreja Assembléia/ atrás da igreja Sagrada Família/74991199418 - Irmão (Luiz)"},
+    {coords:[-11.266477,-39.371379], name:"Jessica De Jesus Santos", whatsapp:"5575983727418", color:'grey', local:"Bairro: Centro - Endereço: Travessa Segunda Santa Luzia, 61 - Ref.:Depois do Britador de Valtemir, e ao lado da rua AV Santa Luzia/75991510136-Paulo Amigo"},
+    {coords:[-11.247442, -39.375228], name:"Roseli Varjao", whatsapp:"5575992175466", color:'grey', local:"Bairro: Rejeito - Endereço: Povoado do rejeito, S/n - Ref.:Vizinho à casa de Dona neném"},
+    {coords:[-11.212863,-39.358497], name:"Hortencia Santiago De Jesus", whatsapp:"5575983107331", color:'grey', local:"Bairro: ZONA RURAL - Endereço: Povoado Rose, SN - Ref.:Na chegada do Povoado entrar na primeira rua antes da igreja Assembleia de Deus.//75 99858-7037 Joaldo Esposo //"},
     {coords:[-11.255807, -39.381604], name:"Geane De Jesus", whatsapp:"5575981616686", color:'grey', local:"Bairro: estrada boi velho - Endereço: Tv segunda estrada velha do Valente, 93 - Ref.:Estrada velha do Valente depois do mercadinho de conceição primeira entrada a direita // (75) 98143-6661 - vixinha Meire Dias"},
     {coords:[-11.244339, -39.746892], name:"Merinalva Lima De Souza", whatsapp:"5575999198104", color:'grey', local:"Bairro: Santa luz - Endereço: Fazenda laje nova, sn - Ref.:Casa de Leidinha / bar de cio / 7598299097  (Sobrinho, Wellington)"},
     {coords:[-11.242387, -39.373011], name:"Luzinete Lima Santos", whatsapp:"5575991400445", color:'grey', local:"Bairro: Juscelino kubitschek - Endereço: Rua Argemira Gesteira , 39 - Ref.:Próximo a Mercearia Km /  Próximo ao Bar da Estrela  - Tel 2:  (75) 99129-0159 (Riqueline) "},

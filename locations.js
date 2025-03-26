@@ -2,6 +2,8 @@
 
 
 export const locations = [
+    {coords:[-12.140416, -40.251473], name:"Ivan Miranda De Oliveira", whatsapp:"5574999154015", color:'red', local:"Bairro:  - Endereço: ,  - Ref.:"},
+    {coords:[-12.141166, -40.254356], name:"Cleide Gomes Macedo", whatsapp:"557499192767", color:'red', local:"Bairro:  - Endereço: ,  - Ref.:"},
     {coords:[-12.136189, -40.390373], name:"Iranice Dos Santos Evangelista", whatsapp:"5574998063507", color:'red', local:"Bairro: Zona rural - Endereço: sitio vargem alta, sn - Ref.:Próximo a Zé capitão / Visinho a Brolino (74) 99929-8427 filho Jucelio)"},
     {coords:[-12.159510, -40.389482], name:"Odivania Silva De Nunes Magalhaes", whatsapp:"5574999965303", color:'red', local:"Bairro: Zona rural - Endereço: Sítio Caldeirão, Sn - Ref.:Ponto do requeijão/próximo a fazenda São José/ 74999651236 Ivanilton (esposo)"},
     {coords:[-12.167538, -40.397250], name:"Rozania Brito Alves", whatsapp:"5574999166983", color:'red', local:"Bairro:  - Endereço: ,  - Ref.:"},
